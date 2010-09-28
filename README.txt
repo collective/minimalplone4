@@ -1,5 +1,8 @@
+minimalplone4
+=============
+
 How to install Plone4 via the minimal buildout configuration
-============================================================
+------------------------------------------------------------
 
 * Have Python 2.6 installed
 
@@ -15,6 +18,8 @@ $ ./bin/buildout
 * Or if you want to use the ZEO configuration:
 $ ./bin/buildout -c zeo.cfg
 
+In any case you will be asked for an administrative username and password.
+
 * Fire up Zope and maybe the ZEO Server
 $ ./bin/zeoserver start
 $ ./bin/instance start
@@ -23,6 +28,19 @@ $ ./bin/instance start
   password admin) and install a Plone instance.
 
 That's all
+
+More configuration
+------------------
+If you want to use a differnt port for the servers, you may add some more
+onfiguration options, like:
+
+[zeoserver]
+zeo-address = 8100
+
+[instance]
+http-address = 8080
+zeo-address = ${zeoserver:zeo-address}
+
 
 Author
 ------
