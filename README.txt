@@ -20,7 +20,7 @@ $ ./bin/zeoserver start
 $ ./bin/instance start
 
 * Point your webbrowser to http://localhost:8080 (username admin,
-  password admin) and install Plone
+  password admin) and install a Plone instance.
 
 That's all
 
