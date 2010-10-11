@@ -9,7 +9,7 @@ create a Python environment
 $ easy_install virtualenv
 $ mkdir testplone
 $ cd testplone
-$ virtualenv --no-site-packages --distribute python26
+$ virtualenv --no-site-packages python26
 
 * Get this buildout package via git like so:
 $ git clone git://github.com/collective/minimalplone4.git
