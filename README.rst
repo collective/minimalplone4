@@ -49,7 +49,3 @@ PORT, add some more eggs, like::
         plone.app.debugtoolbar
         plone.app.widgets
 
-
-Author
-------
-Johannes Raggam <johannes@raggam.co.at>
