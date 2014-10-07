@@ -6,7 +6,7 @@ This is a minimal buildout configuration for installing the latest Plone 4.
 
 Prerequisites
 -------------
-- Python 2.6 or Pyhton 2.7
+- Python 2.6 or Python 2.7
 - Git
 
 
