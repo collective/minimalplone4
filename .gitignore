@@ -18,5 +18,6 @@ local.cfg
 mailqueue
 parts
 pip-selfcheck.json
+src
 var
 !.gitignore
