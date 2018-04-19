@@ -19,7 +19,7 @@ Install
     $ git clone git@github.com:collective/minimalplone4.git
     $ cd minimalplone4
     $ virtualenv .  # Make sure, it's installing Python 2.6 or 2.7
-    $ ./bin/pip install zc.buildout
+    $ ./bin/pip install -r requirements.txt
     $ ./bin/buildout
 
 - Or if you want to use the ZEO configuration::
