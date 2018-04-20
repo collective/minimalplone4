@@ -1,0 +1,3 @@
+# These versions come from https://dist.plone.org/release/4-latest/versions.cfg
+setuptools==26.1.1
+zc.buildout==1.7.1
