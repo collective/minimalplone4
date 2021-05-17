@@ -18,15 +18,13 @@ Install
 
     $ git clone git@github.com:collective/minimalplone4.git
     $ cd minimalplone4
-    $ virtualenv .  # Make sure, it's installing Python 2.6 or 2.7
+    $ virtualenv . -p python # Make sure, it's installing Python 2.6 or 2.7, change 'python' to your python 2 location if needed
     $ ./bin/pip install -r requirements.txt
     $ ./bin/buildout
 
 - Or if you want to use the ZEO configuration::
 
     $ ./bin/buildout -c zeo.cfg
-
-In any case you will be asked for an administrative username and password.
 
 - Fire up Zope and maybe the ZEO Server::
 
@@ -54,4 +52,3 @@ PORT, add some more eggs, like::
     eggs +=
         plone.app.debugtoolbar
         plone.app.widgets
-
