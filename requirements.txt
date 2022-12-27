@@ -1,5 +1,5 @@
 # ATTENTION: Don't forget to change these pins in buildout.cfg as well if you change it here.
 # 45.0.0 breaks support of Python2: https://setuptools.readthedocs.io/en/latest/history.html#v45-0-0
-setuptools==44.1.1
+setuptools==65.5.1
 # Although 3.0.0 is compatible with Python 2, it was still in beta when we're changing this file.
 zc.buildout==2.13.3
